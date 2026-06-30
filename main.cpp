@@ -2,13 +2,13 @@
 
 int main() {
 
-    // Exercise 2 - Assignment
+    // Exercise 3 - Copying a variable
 
-    int age = 25;
-    std::cout << age << std::endl;
+    int apples = 10;
+    int oranges = apples;
 
-    age = 40;
-    std::cout << age << std::endl;
+    std::cout << apples << std::endl;
+    std::cout << oranges << std::endl;
 
     return 0;
 
